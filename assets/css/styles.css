@@ -429,7 +429,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 320px) {
   .nav{
     position:initial;
   }
