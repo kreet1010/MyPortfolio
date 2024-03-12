@@ -354,7 +354,7 @@ footer {
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
   nav {
     padding: 1.5rem 1rem;
   }
@@ -383,7 +383,7 @@ footer {
   }
 
   .hero {
-    margin-top: -4rem;
+    margin-top: 4rem;
     flex-direction: column;
     gap: 0;
   }
@@ -430,15 +430,41 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
+  .nav{
+    position:initial;
+  }
   .hero img {
     height: 37.5rem;
     width: 23rem;
   }
 
+  .wordShuffeler {
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 20px;
+    font-family: "Space Mono",monospace;
+    margin-left: 5%;
+    margin-bottom: 150px;
+  }
   .bio {
     width: 18.3rem;
+    margin-left: 10%;
+    padding :5%
   }
-
+  .more-about {
+    margin: 5%;
+    border-radius: 20px;
+    padding: 5%;
+    text-align: center;
+  }
+  .skills {
+    display : flexbox;
+    margin: 5%;
+    text-align: center;
+    padding : 10px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+    color: #ffffff;
+  }
   .project-container {
     width: 17.875rem;
   }
