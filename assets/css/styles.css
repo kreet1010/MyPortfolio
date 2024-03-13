@@ -441,7 +441,10 @@ footer {
   
 
   .hero {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
   }
   .hero img {
     height: 37.5rem;
