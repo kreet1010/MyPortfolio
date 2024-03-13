@@ -381,8 +381,16 @@ footer {
   nav ul.show {
     transform: translateX(10);
   }
+  .wordShuffeler {
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 20px;
+    font-family: "Space Mono",monospace;
+    margin-left: 5%;
+    margin-bottom: 150px;
+  }
 
   .hero {
+    display:block;
     margin-top: 4rem;
     flex-direction: column;
     gap: 0;
@@ -429,9 +437,11 @@ footer {
   }
 }
 
-@media screen and (max-width: 320px) {
-  .nav{
-    position:initial;
+@media screen and (max-width: 425px) {
+  
+
+  .hero {
+    display: block;
   }
   .hero img {
     height: 37.5rem;
@@ -443,11 +453,13 @@ footer {
     font-size: 20px;
     font-family: "Space Mono",monospace;
     margin-left: 5%;
+    margin-right: 2.5%;
     margin-bottom: 150px;
   }
   .bio {
     width: 18.3rem;
-    margin-left: 10%;
+    margin-left: 4.5%;
+    margin-right: 7.5%;
     padding :5%
   }
   .more-about {
